@@ -1,3 +1,5 @@
+
+# Rock-4c-plus, debian, xfce4 [![Build and release](https://github.com/sdizdarevic/debos-radxa/actions/workflows/build.yml/badge.svg)](https://github.com/sdizdarevic/debos-radxa/actions/workflows/build.yml)
 # debos-radxa
 
 ## Introduction
@@ -107,7 +109,7 @@ radxa@x86-64:~/debos-radxa$ docker run --rm --interactive --tty --tmpfs /dev/shm
 --workdir $PWD --mount "type=bind,source=$PWD,destination=$PWD" --entrypoint ./build-os.sh godebos/debos -b rock-3a -m ubuntu -v server
 </pre>
 
-The generated system images will be copied to `./output` direcotry.
+The generated system images will be copied to `./output` directory.
 
 ## How to debug errors
 
